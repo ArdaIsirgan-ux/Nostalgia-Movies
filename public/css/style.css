@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+height: 100vh;
+width: 100vw;
+display: flex;
+}
+.scoring{
+    height: 100%;
+    width: 50%;
+    background-color: #E50914;
+}
+.films{
+    height: 100%;
+    width: 50%;
+    background-color: #141414;
+} 
+@media only screen and (max-width: 900px){
+
+    .films{
+    width: 100%;
+    position: absolute;
+    height: 50%;
+    top: 0;
+}
+.scoring{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+}
+.main-container{
+    position: relative;
+    height: 200vh;
+ }
+
+}
